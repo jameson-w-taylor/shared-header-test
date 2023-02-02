@@ -1,4 +1,11 @@
+<!--
+  Note:
+  Providing a defaultHref is REQURED for the ion-back-button to appear at all
+  So out-of-the-box functionality is broken when using a shared header component
+-->
 <app-header defaultHref="/home" color="secondary" title="test"></app-header>
+
+<!-- Comment out app-header, and uncomment below (on both home and test pages) to see "normal" functionality -->
 <!-- <ion-header>
   <ion-toolbar color="secondary">
     <ion-buttons slot="start">
