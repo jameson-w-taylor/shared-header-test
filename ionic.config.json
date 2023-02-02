@@ -1,0 +1,7 @@
+{
+  "name": "shared-header-test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
